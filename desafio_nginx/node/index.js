@@ -16,7 +16,8 @@ app.get('/', (req, res) => {
     connection.query(`INSERT INTO people (name) VALUES ('${nome}')`);
     connection.query(`SELECT name FROM people`, (error, results, fields) => {
         res.send(`
-            <h1>Full Cycle Rocks, Baby!</h1>
+            <h1>Full Cycle Rocks!</h1>
+            <p>- Lista de nomes cadastrada no banco de dados.</p>
             <ol>
                 ${!!results.length ? results.map(el => `<li>${el.name}</li>`).join('') : ''}
             </ol>
