@@ -1,0 +1,8 @@
+/desafio_nginx/node/node_modules/
+/desafio_nginx/node/package-lock.json
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/.gitignore
+/.idea/desafios_full_cycle.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+
